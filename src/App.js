@@ -26,7 +26,7 @@ export default function App(){
     <div className="App" onClick={closeActive}>
       <div className="main">
 
-        {/* right tooltip */}
+        {/* dropdown */}
         <div className={active ? "main-dropdown active" : "main-dropdown"}>
            <div
               className="dropdown-header"
